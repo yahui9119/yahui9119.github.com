@@ -2,19 +2,19 @@
   <div class="left align-right">
     {% if page.prev_section != null %}
       <a href="{{ site.url }}/docs/{{ page.prev_section }}/" class="prev">
-        上一个
+        后退
       </a>
     {% else %}
-      <span class="prev disabled">上一个</span>
+      <span class="prev disabled">后退</span>
     {% endif %}
   </div>
   <div class="right align-left">
     {% if page.next_section != null %}
       <a href="{{ site.url }}/docs/{{ page.next_section }}/" class="next">
-        下一个
+        前进
       </a>
     {% else %}
-      <span class="next disabled">下一个</span>
+      <span class="next disabled">前进</span>
     {% endif %}
   </div>
   <div class="clear"></div>
